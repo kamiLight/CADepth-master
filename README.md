@@ -40,11 +40,11 @@ We provide the following  options for `--model_name`:
 
 | `--model_name`                                               | Training modality | Resolution | Abs_Rel | Sq_Rel | $\delta<1.25$ |
 | ------------------------------------------------------------ | ----------------- | ---------- | ------- | ------ | ------------- |
-| [`M_640x192`](https://drive.google.com/open?id=1-Xh_2AUw7fYSJ7Pqq89KdDSZYipv1TJ_&authuser=1802797123%40qq.com&usp=drive_fs) | Mono              | 640 x 192  | 0.105   | 0.769  | 0.892         |
-| [`M_1024x320`](https://drive.google.com/open?id=100m6JHvxEcsCmHhZkQw8_wW8KXqiPSfp&authuser=1802797123%40qq.com&usp=drive_fs) | Mono              | 1024 x 320 | 0.102   | 0.734  | 0.898         |
-| [`M_1280x384`](https://drive.google.com/open?id=103AxkDKBnwrmizjJma7mUriUrMn94Tyv&authuser=1802797123%40qq.com&usp=drive_fs) | Mono              | 1280 x 384 | 0.102   | 0.715  | 0.900         |
-| [`MS_640x192`](https://drive.google.com/open?id=105dwrsDkeZxADsX4KLEv3wrMjzM_I-D_&authuser=1802797123%40qq.com&usp=drive_fs) | Mono + Stereo     | 640 x 192  | 0.102   | 0.752  | 0.894         |
-| [`MS_1024x320`](https://drive.google.com/open?id=10ErVRtaQF7x1wlsYqNaqYxZOVhG7-GWM&authuser=1802797123%40qq.com&usp=drive_fs) | Mono + Stereo     | 1024 x 320 | 0.096   | 0.694  | 0.908         |
+| [`M_640x192`](https://drive.google.com/file/d/1-Xh_2AUw7fYSJ7Pqq89KdDSZYipv1TJ_/view?usp=sharing) | Mono              | 640 x 192  | 0.105   | 0.769  | 0.892         |
+| [`M_1024x320`](https://drive.google.com/file/d/100m6JHvxEcsCmHhZkQw8_wW8KXqiPSfp/view?usp=sharing) | Mono              | 1024 x 320 | 0.102   | 0.734  | 0.898         |
+| [`M_1280x384`](https://drive.google.com/file/d/103AxkDKBnwrmizjJma7mUriUrMn94Tyv/view?usp=sharing) | Mono              | 1280 x 384 | 0.102   | 0.715  | 0.900         |
+| [`MS_640x192`](https://drive.google.com/file/d/105dwrsDkeZxADsX4KLEv3wrMjzM_I-D_/view?usp=sharing) | Mono + Stereo     | 640 x 192  | 0.102   | 0.752  | 0.894         |
+| [`MS_1024x320`](https://drive.google.com/file/d/10ErVRtaQF7x1wlsYqNaqYxZOVhG7-GWM/view?usp=sharing) | Mono + Stereo     | 1024 x 320 | 0.096   | 0.694  | 0.908         |
 
 # KITTI training data
 
@@ -136,11 +136,11 @@ You can download our precomputed disparity predictions from the following links:
 
 | Training modality | Input size | `.npy` filesize | Eigen disparities                                            |
 | ----------------- | ---------- | --------------- | ------------------------------------------------------------ |
-| Mono              | 640 x 192  | 326M            | [Download 🔗](https://drive.google.com/open?id=1-vk6Xl_YLpkJrjVNe6_lK_uFhe5jTE3-&authuser=1802797123%40qq.com&usp=drive_fs) |
-| Mono              | 1024 x 320 | 871M            | [Download 🔗](https://drive.google.com/open?id=102Fh2036ZctMnuIBxKwgyl1TQo8W_FSl&authuser=1802797123%40qq.com&usp=drive_fs) |
-| Mono              | 1280 x 384 | 1.27G           | [Download 🔗](https://drive.google.com/open?id=103v-8xbLTyTH7GY-cQspSo7U6sWBD7pf&authuser=1802797123%40qq.com&usp=drive_fs) |
-| Mono + Stereo     | 640 x 192  | 326M            | [Download 🔗](https://drive.google.com/open?id=106tKVF1fYzfnzgqErl5aUfUSNmjAWTN1&authuser=1802797123%40qq.com&usp=drive_fs) |
-| Mono + Stereo     | 1024 x 320 | 871M            | [Download 🔗](https://drive.google.com/open?id=10FuvQl0Rxif1J9upWRLuy3gAmDYy4Uvz&authuser=1802797123%40qq.com&usp=drive_fs) |
+| Mono              | 640 x 192  | 326M            | [Download 🔗](https://drive.google.com/file/d/1-vk6Xl_YLpkJrjVNe6_lK_uFhe5jTE3-/view?usp=sharing) |
+| Mono              | 1024 x 320 | 871M            | [Download 🔗](https://drive.google.com/file/d/102Fh2036ZctMnuIBxKwgyl1TQo8W_FSl/view?usp=sharing) |
+| Mono              | 1280 x 384 | 1.27G           | [Download 🔗](https://drive.google.com/file/d/103v-8xbLTyTH7GY-cQspSo7U6sWBD7pf/view?usp=sharing) |
+| Mono + Stereo     | 640 x 192  | 326M            | [Download 🔗](https://drive.google.com/file/d/106tKVF1fYzfnzgqErl5aUfUSNmjAWTN1/view?usp=sharing) |
+| Mono + Stereo     | 1024 x 320 | 871M            | [Download 🔗](https://drive.google.com/file/d/10FuvQl0Rxif1J9upWRLuy3gAmDYy4Uvz/view?usp=sharing) |
 
 # References
 
